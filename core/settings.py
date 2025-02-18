@@ -19,6 +19,7 @@ ALLOWED_HOSTS = ['*']
 
 # Application definition
 INSTALLED_APPS = [
+    'apps.bot', # local app
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
